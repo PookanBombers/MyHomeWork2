@@ -5,9 +5,38 @@
     </style>
 
     <style name="CalcButtonStyle" parent="MyCoolStyle">
-        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:layout_marginStart">@dimen/marginStart</item>
         <item name="android:textSize">@dimen/buttonTextSize</item>
-        <item name="android:background">@drawable/button_background</item>
+        <item name="android:background">#00000000</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/layout_width</item>
+        <item name="android:layout_height">@dimen/layout_height</item>
+    </style>
+
+    <style name="CalcButtonStyleLand" parent="MyCoolStyle">
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:layout_marginStart">@dimen/marginStart</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/layout_width</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="editTextStyle" parent="MyCoolStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="paddingStart">@dimen/paddingStart</item>
+        <item name="paddingEnd">@dimen/paddingEnd</item>
+        <item name="android:layout_marginBottom">@dimen/marginBotton</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:hint">@string/displyHint</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:background">#00000000</item>
+
     </style>
 </resources>

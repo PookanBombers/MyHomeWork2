@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyHomeWork2</string>
 
-    <string name="displyHint">Enter a Value</string>
+    <string name="displyHint">0</string>
 
     <string name="zero">0</string>
     <string name="one">1</string>
